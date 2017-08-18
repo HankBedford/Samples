@@ -1,3 +1,4 @@
+#Simple encryption code
 from Crypto.Cipher import AES
 from Crypto import Random
 key = b'Sixteen byte key'

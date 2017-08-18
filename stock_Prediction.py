@@ -1,3 +1,7 @@
+#Using the Machine Learning model vectors and Regression
+#This program plots past prices and draws its prediction based on the CSV File downloaded from Google
+#using the SKlearn and matplot libraries
+
 import csv
 import numpy as np
 from sklearn.svm import SVR

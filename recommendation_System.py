@@ -1,3 +1,4 @@
+# Program that recommends movies based on previous positive reviews
 import numpy as np
 from lightfm.datasets import fetch_movielens
 from lightfm import LightFM 

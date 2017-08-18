@@ -1,3 +1,7 @@
+#Using the sklearn Machine Learning library and Regression learning model
+#Predict the gender based on past height, weight, and shoe size 
+#Of precious arrays with their cooresponding gender
+
 from sklearn import tree
 
 #[height(in inches), weight, shoe size]
