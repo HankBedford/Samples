@@ -1,5 +1,1 @@
-Zachary Lynch's code samples. 
-
-These samples demonstrate some of my skills as a software developer.
-Mainly machine learning, my skills primarily revolve around data analysis and data representation.
-These programs are coded in Python, but I have skills with the Django framework, HTML/CSS, Java, MySQL, and Swift.
+My personal Repository of projects I'm currently working on unless otherwise discontinued. Most scripts are just small small bits of code to solve problems I've faced in the world. If anyone has any comments or suggestions, please email me at: Zachary.Lynch1337@gmail.com
