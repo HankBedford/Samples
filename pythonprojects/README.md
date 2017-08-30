@@ -1,0 +1,1 @@
+My personal Repository of projects I'm currently working on unless otherwise discontinued. Most scripts are just small small bits of code to solve problems I've faced in the world. If anyone has any comments or suggestions, please email me at: Zachary.Lynch1337@gmail.com
