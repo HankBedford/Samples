@@ -1,0 +1,502 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"HttpResponse"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"post",
+				"post_home"
+			],
+			[
+				"posts",
+				"postsapp"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"sear",
+				"search"
+			],
+			[
+				"f",
+				"find_all"
+			],
+			[
+				"reddit",
+				"redditHtml"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"b",
+				"BeautifulSoup"
+			],
+			[
+				"S",
+				"Support"
+			],
+			[
+				"tw",
+				"tweepy"
+			],
+			[
+				"a",
+				"access_Secret"
+			],
+			[
+				"c",
+				"consumer_Secret"
+			],
+			[
+				"url",
+				"urllib"
+			],
+			[
+				"t",
+				"t_preprocessed"
+			],
+			[
+				"graph",
+				"graph_def"
+			],
+			[
+				"t_",
+				"t_input"
+			],
+			[
+				"m",
+				"model_fn"
+			],
+			[
+				"zip",
+				"zipfile"
+			],
+			[
+				"ur",
+				"urllib"
+			],
+			[
+				"mo",
+				"model_name"
+			],
+			[
+				"data",
+				"data_dir"
+			],
+			[
+				"n",
+				"n_items"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"pre",
+				"prediction"
+			],
+			[
+				"live",
+				"live_neighbors"
+			],
+			[
+				"liv",
+				"live_neighbors"
+			],
+			[
+				"p",
+				"play"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"l2",
+				"l2"
+			],
+			[
+				"sy",
+				"syn0"
+			],
+			[
+				"s",
+				"syn1"
+			],
+			[
+				"l2_",
+				"l2_error"
+			],
+			[
+				"l",
+				"l0"
+			],
+			[
+				"pred",
+				"predicted_price"
+			],
+			[
+				"sv",
+				"svr_lin"
+			],
+			[
+				"svr",
+				"svr_poly"
+			],
+			[
+				"lin",
+				"svr_lin"
+			],
+			[
+				"rb",
+				"svr_rbf"
+			],
+			[
+				"pr",
+				"prices"
+			],
+			[
+				"cs",
+				"csvFileReader"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\"\"\"simpleApp URL Configuration\n\nThe `urlpatterns` list routes URLs to views. For more information please see:\n    https://docs.djangoproject.com/en/1.11/topics/http/urls/\nExamples:\nFunction views\n    1. Add an import:  from my_app import views\n    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')\nClass-based views\n    1. Add an import:  from other_app.views import Home\n    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')\nIncluding another URLconf\n    1. Import the include() function: from django.conf.urls import url, include\n    2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))\n\"\"\"\nfrom django.conf.urls import url, include\nfrom django.contrib import admin\nfrom posts import views\n\nurlpatterns = [\n    url(r'^admin/', admin.site.urls),\n    url (r'^', views.home)\n]\n",
+			"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/simpleApp/urls.py",
+			"file_size": 826,
+			"file_write_time": 1503776679000000,
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Zach/Desktop/Samples/twitter_API.py",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# -*- coding: utf-8 -*-\nfrom __future__ import unicode_literals\nfrom django.http import HttpResponse\n\n\n# Create your views here.\n\ndef home(request):\n\n	h1 = HttpResponse(\"<h1> Hello world! </h1>\")\n	\n\n	return h1\n\n",
+			"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/posts/views.py",
+			"file_size": 211,
+			"file_write_time": 1503777696000000,
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/simpleApp/settings.py",
+			"settings":
+			{
+				"buffer_size": 3125,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Zach/Desktop/Samples/webAppDev/simpleApp/posts/urls.py",
+		"/Users/Zach/Desktop/Samples/webAppDev/simpleApp/simpleApp/urls.pyc",
+		"/Users/Zach/Desktop/Samples/recommendation_System.py",
+		"/Users/Zach/Desktop/Samples/gender_Prediction_AI.py",
+		"/Users/Zach/Desktop/Samples/twitter_API.py",
+		"/Users/Zach/Desktop/Samples/README.md",
+		"/Users/Zach/Desktop/Samples/Encryption.py",
+		"/Users/Zach/Desktop/Samples/stock_Prediction.py",
+		"/Users/Zach/Desktop/Personal_Projects/Encryption.py",
+		"/Users/Zach/Desktop/Personal_Projects/test_Yahoo_Finance.py",
+		"/Users/Zach/Desktop/Personal_Projects/universe.py",
+		"/Users/Zach/Desktop/Samples/test_Yahoo_Finance.py",
+		"/Users/Zach/Desktop/Personal_Projects/twitter_API.py",
+		"/Users/Zach/Desktop/Personal_Projects/gender_Prediction_AI.py",
+		"/Users/Zach/Desktop/Personal_Projects/recommendation_System.py",
+		"/Users/Zach/Desktop/Personal_Projects/deep_Dream.py",
+		"/Users/Zach/Desktop/Personal_Projects/test.py",
+		"/Users/Zach/Desktop/Personal_Projects/test_soup.py",
+		"/Users/Zach/Desktop/Personal_Projects/s.py",
+		"/Users/Zach/Desktop/Personal_Projects/AI.py",
+		"/Users/Zach/Desktop/Personal_Projects/open.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/simpleApp/urls.py",
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Zach/Desktop/Samples/twitter_API.py",
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/posts/views.py",
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Zach/Desktop/Samples/webAppDev/simpleApp/simpleApp/settings.py",
+					"settings":
+					{
+						"buffer_size": 3125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1105,
+								1105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 82.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
