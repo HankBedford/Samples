@@ -27,7 +27,7 @@ def main():
 
 	operation = input('\n')
 
-	if(operation ==  '1'):
+	if(operation == 1):
 		print('Factorial Computation\n')
 		while(True):
 			try:
@@ -38,28 +38,28 @@ def main():
 				print('Invalid Value')
 				continue
 
-	elif(operation == '2'):
+	elif(operation == 2):
 		print('Permutation Computation\n')
 
 		while(True):
 			try:
 				n  = int(input('\n Enter Value for n '))
 				r  = int(input('\n Enter Value for r '))
-				print('Permutation of {}P{} = {}'.format(n,r,permutation(n,r)))
+				print('Permutation of {},{} = {}'.format(n,r,permutation(n,r)))
 				break
 			except(ValueError):
 				print('Invalid Value')
 				continue
 
 
-	elif(operation == '3'):
+	elif(operation == 3):
 		print('Combination Computation\n')
 		while(True):
 			try:
 				n  = int(input('\n Enter Value for n '))
 				r  = int(input('\n Enter Value for r '))
 
-				print('Combination of {}C{} = {}'.format(n,r,combination(n,r)))
+				print('Combination of {},{} = {}'.format(n,r,combination(n,r)))
 				break
 
 			except(ValueError):
