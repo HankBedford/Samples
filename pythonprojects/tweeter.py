@@ -51,10 +51,13 @@ def main():
 	initialize()
 	if doit == 1:
 		tweetthis("text")
-	elif doit == 2:
-		tweetthis("pic")
-	else:
 		print "OK, Let's try again!"
 		main()
+	elif doit == 2:
+		tweetthis("pic")
+		print "OK, Let's try again!"
+		main()
+
+		
 
 main()
