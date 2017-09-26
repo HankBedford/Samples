@@ -38,7 +38,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
 
-d3.json("https://gist.githubusercontent.com/mbostock/4348373/raw/85f18ac90409caa5529b32156aa6e71cf985263f/flare.json", function(error, root) {
+d3.json("http://localhost:8000/flare.json", function(error, root) {
   if (error) throw error;
   
   root = d3.hierarchy(root);

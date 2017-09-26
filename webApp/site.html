@@ -7,22 +7,31 @@
 <link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/style1.css">
 <style>
-body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px;}
 
-img:hover{
-  width: "150%";
+img {
+
+  width: 50%
+  padding-bottom: .5%;
+  padding: .5%;
+
 }
-.row-padding img {margin-bottom: 12px}
-body{
-background-color:grey;}
+
+
 </style>
 <body>
 
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Apps')">Apps</button>
+  <button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
+  <button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
+  <button class="tablinks" onclick="openTab(event, 'Drinks')">Drinks</button>
+
+</div>
 
 <!-- Sidebar -->
-<nav class="sidebar black animate-top xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+<!-- <nav class="sidebar black animate-top xxlarge" style="display:none;padding-top:150px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="button black xxlarge padding display-topright" style="padding:6px 24px">
     <i class="fa fa-remove"></i>
   </a>
@@ -32,12 +41,13 @@ background-color:grey;}
     <a href="#" class="bar-item button text-grey hover-black">Contact</a>
     <a href="#" class="bar-item button text-grey hover-black">Filter</a>
   </div>
-</nav>
+</nav> */
+CONTENT
 
-<!-- !PAGE CONTENT! -->
 <div class="content" style="max-width:1500px">
 
-<!-- Header -->
+HEADER 
+
 <div class="opacity">
 <span class="button xxlarge white right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
 <div class="clear"></div>
@@ -46,42 +56,77 @@ background-color:grey;}
   <p><b>Test for webApp</b></p>
   <p class="padding-16"><button class="button black" onclick="myFunction()">Toggle Grid Padding</button></p>
 </header>
-</div>
+</div> -->
 
 <!-- Photo Grid -->
-<div class="row" id="myGrid" style="margin-bottom:128px">
+<div class="tabcontent" id="Apps">
   <div class="third">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="width:100%">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/shoyu-ramen.jpg" style="width:100%">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/Chachu.jpg" style="width:100%">
-    <img src="/w3images/rock.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name1">hello </div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name2">hello1</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name3">hello2</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name4">hello3</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name5">hello4</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
   </div>
-
-  <div class="third">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/rice.jpg" style="width:100%">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/Chachu.jpg" style="width:100%">
-    <img src="/w3images/notebook.jpg" style="width:100%">
-    <img src="/w3images/london.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/avatar_g.jpg" style="width:100%">
-  </div>
-
-  <div class="third">
-    <img src="/Users/Zach/Desktop/Samples/webApp/images/bento.jpg" style="width:100%">
-    <img src="/w3images/workbench.jpg" style="width:100%">
-    <img src="/w3images/gondol.jpg" style="width:100%">
-    <img src="/w3images/skies.jpg" style="width:100%">
-    <img src="/w3images/lights.jpg" style="width:100%">
-    <img src="/w3images/workshop.jpg" style="width:100%">
-  </div>
+<div class="thrid">
+  <img src="" style="width:50%">
+  <img src="" style="width:50%">
+  <img src="@">
 </div>
+</div>
+<!-- 
+<div id="Entrees" class="tablecontent" style="margin-bottom:128px">
+    <p>Print on Entrees</p>
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="width:50%">
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/shoyu-ramen.jpg" style="width:50%">
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/Chachu.jpg" style="width:50%">
+    <img src="#" style="width:50%">
+    <img src="#" style="width:50%">
+    <img src="#" style="width:50%">
+  </div> -->
+
+<div class="tabcontent" id="Desserts">
+  
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name1">hello </div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name2">hello1</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name3">hello2</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name4">hello3</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name5">hello4</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name6">hello6</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name7">hello7</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name8">hello8</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name9">hello9</div>
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <div class="name10">hello10</div>
+
+
+
+
+
+</div> 
 
 <!-- End Page Content -->
 </div>
 
-<!-- Footer -->
+<!-- Footer 
 <footer class="container padding-64 light-grey center opacity xlarge" style="margin-top:128px"> 
   <i class="fa fa-facebook-official hover-opacity"></i>
   <i class="fa fa-instagram hover-opacity"></i>
@@ -90,10 +135,24 @@ background-color:grey;}
   <i class="fa fa-twitter hover-opacity"></i>
   <i class="fa fa-linkedin hover-opacity"></i>
   <p class="medium"><a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-text-green"></a></p>
-</footer>
+</footer> -->
  
 <script>
 // Toggle grid padding
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
 function myFunction() {
     var x = document.getElementById("myGrid");
     if (x.className === "row") {

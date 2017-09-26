@@ -1,0 +1,132 @@
+body,h1 {font-family: "Montserrat", sans-serif}
+
+.tabcontent { 
+   position: relative; 
+}
+
+.name1 { 
+   position: absolute; 
+   top: 920%;
+   left: 5.5%;
+   color: red;
+
+}
+.name2 { 
+   position: absolute; 
+   top: 235px;
+   left: 5.5%;
+   color: red;
+
+}
+.name3 { 
+   position: absolute; 
+   top: 358px;
+   left: 5.5%;
+   color: red;
+
+}
+.name4 { 
+   position: absolute; 
+   top: 484px;
+   left: 5.5%;
+   color: red;
+
+}
+.name5 { 
+   position: absolute; 
+   top: 610px;
+   left: 5.5%;
+   color: red;
+
+}
+.name6{
+    position: absolute;
+    top: 110px;
+    right: 36%;
+    color: red;
+}
+.name7{
+    position: absolute;
+    top: 235px;
+    right: 36%;
+    color: red;
+}
+.name8{
+    position: absolute;
+    top: 358px;
+    right: 36%;
+    color: red;
+}
+.name9{
+    position: absolute;
+    top: 484px;
+    right: 36%;
+    color: red;
+}
+.name10{
+    position: absolute;
+    top: 610px;
+    right: 34%;
+    color: red;
+}
+
+img {margin-bottom: -7px;}
+/**Transitions while div column instead of individual div elements. Needs fix  
+div{
+  transition: width 2s, height 2s;
+}
+div:hover{
+  width: 100%;
+  height: 100%;
+}**/
+.row-padding img {margin-bottom: 12px}
+body{
+background-color:grey;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
