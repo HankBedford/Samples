@@ -8,14 +8,14 @@ body,h1 {font-family: "Montserrat", sans-serif}
    position: absolute; 
    top: 920%;
    left: 5.5%;
-   color: red;
+   color: black;
 
 }
 .price{ 
    position: absolute; 
    top: 920%;
    left: 39%;
-   color: red;
+   color: black;
 
 }
 #button1{
@@ -28,18 +28,18 @@ body,h1 {font-family: "Montserrat", sans-serif}
    position: absolute; 
    top: 235px;
    left: 5.5%;
-   color: red;
+   color: black;
 }
 .price1{ 
    position: absolute; 
    top: 235px;
    left: 39%;
-   color: red;
+   color: black;
 
 }
 #button2{
   position: absolute; 
-  top: 120%;
+  top: 1160%;
   left: 38%;
 }
 
@@ -47,101 +47,141 @@ body,h1 {font-family: "Montserrat", sans-serif}
    position: absolute; 
    top: 358px;
    left: 5.5%;
-   color: red;
+   color: white;
 
 }
 .price2{ 
    position: absolute; 
    top: 358px;
    left: 39%;
-   color: red;
+   color: white;
  }
+ #button3{
+  position: absolute; 
+  top: 2200%;
+  left: 38%;
+}
 .name4 { 
    position: absolute; 
    top: 484px;
    left: 5.5%;
-   color: red;
+   color: black;
 
 }
 .price3{ 
    position: absolute; 
    top: 484px;
    left: 39%;
-   color: red;
+   color: black;
  }
+#button4{
+  position: absolute; 
+  top: 3239%;
+  left: 38%;
+}
 .name5 { 
    position: absolute; 
-   top: 610px;
+   top: 606px;
    left: 5.5%;
-   color: red;
+   color: black;
 
 }
 .price4{ 
    position: absolute; 
-   top: 610px;
+   top: 606px;
    left: 39%;
-   color: red;
+   color: black;
  }
+#button5{
+  position: absolute; 
+  top: 118%;
+  right: 5%;
+}
 .name6{
     position: absolute;
     top: 110px;
     right: 36%;
-    color: red;
+    color: black;
 }
 .price5{ 
    position: absolute; 
    top: 110px;
    right: 6%;
-   color: red;
+   color: black;
  }
+ #button6{
+  position: absolute; 
+  top: 1160%;
+  right: 5%;
+}
 .name7{
     position: absolute;
     top: 235px;
     right: 36%;
-    color: red;
+    color: black;
 }
 .price6{ 
    position: absolute; 
    top: 235px;
    right: 6%;
-   color: red;
+   color: black;
  }
+ #button7{
+  position: absolute; 
+  top: 2200%;
+  right: 5%;
+}
 .name8{
     position: absolute;
     top: 358px;
     right: 36%;
-    color: red;
+    color: white;
 }
 .price7{ 
    position: absolute; 
    top: 358px;
    right: 6%;
-   color: red;
+   color: white;
  }
+ #button8{
+  position: absolute; 
+  top: 3239%  ;
+  right: 5%;
+}
 .name9{
     position: absolute;
     top: 484px;
     right: 36%;
-    color: red;
+    color: black;
 }
 .price8{ 
    position: absolute; 
    top: 484px;
    right: 6%;
-   color: red;
+   color: black;
  }
+ #button9{
+  position: absolute; 
+  top: 2200%;
+  left: 38%;
+}
 .name10{
     position: absolute;
-    top: 610px;
+    top: 606px;
     right: 34%;
-    color: red;
+    color: black;
 }
 .price9{ 
    position: absolute; 
-   top: 610px;
+   top: 606px;
    right: 6%;
-   color: red;
+   color: black;
  }
+ #button10{
+  position: absolute; 
+  top: 4279%;
+  right: 5%;
+}
 
 img {margin-bottom: -7px;}
 /**Transitions while div column instead of individual div elements. Needs fix  
@@ -154,7 +194,7 @@ div:hover{
 }**/
 .row-padding img {margin-bottom: 12px}
 body{
-background-color:grey;}
+background-color:lightgrey;}
 
 /* Style the tab */
 div.tab {
