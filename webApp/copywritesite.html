@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/style1.css">
@@ -19,7 +20,8 @@ img {
   width:188px;
   max-height:131px;
   padding:2.5% 2.5% 2.5% 2.5%;
-
+  z-index:-1;
+  margin-top: 10%;
 }
 
 
@@ -30,8 +32,14 @@ img {
   <button class="tablinks" onclick="openTab(event, 'Apps')">Apps</button>
   <button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
   <button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
-  <button class="tablinks" onclick="openTab(event, 'Drinks')">Drinks</button>
-
+  <button class="tablinks" onclick="openTab(event, 'cart')">Drinks</button>
+  <button class="tablinks" onclick="openTab(event, 'test')">test</button>
+</div>
+<div class="bottom_tab">
+  <button class="fa fa-home" onclick="openTab(event, 'home')"></button>
+  <button class="fa fa-filter" onclick="openTab(event, 'filter')"></button>
+  <button class="tablinks" id ="total" onclick="openTab(event, 'cart')">Total</button>
+  <button class="fa fa-opencart" onclick="openTab(event, 'cart')"></button>
 </div>
 
 <!-- Sidebar -->
@@ -63,6 +71,8 @@ HEADER
 </div> -->
 
 <!-- Photo Grid -->
+
+
 <div class="tabcontent" id="Apps">
   <div class="third">
     <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
@@ -75,7 +85,7 @@ HEADER
       <div class="name4">hello3</div>
       <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
       <div class="name5">hello4</div>
-      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
+      <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: % 2.5% 2.5% 2.5%">
       <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
       <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
       <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg" style="float:left; width:50%; padding: 2.5% 2.5% 2.5% 2.5%">
@@ -84,7 +94,6 @@ HEADER
 <div class="thrid">
   <img src="" style="width:50%">
   <img src="" style="width:50%">
-  <img src="@">
 </div>
 </div>
 <!-- 
@@ -97,7 +106,6 @@ HEADER
     <img src="#" style="width:50%">
     <img src="#" style="width:50%">
   </div> -->
-
 <div class="tabcontent" id="Desserts">
   
       <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/cookiecheesecake.jpeg">
@@ -115,7 +123,7 @@ HEADER
       <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/oreocake.jpeg" id="img1">
       <div class="name4">hello3</div>
       <div class="price3">2.50</div>
-      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button4"><i class="fa fa-plus"></i></a>
+      <button class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button4" onClick="event, addTotal" value = 2.50 ><i class="fa fa-plus"></i></button>
       <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/roastedpear.jpeg">
       <div class="name5">hello4</div>
       <div class="price4">2.50</div>
@@ -140,15 +148,19 @@ HEADER
       <div class="name10">hello10</div>
       <div class="price9">2.50</div>
       <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button10"><i class="fa fa-plus"></i></a>
-
-
-
-
-
 </div> 
-
 <!-- End Page Content -->
 </div>
+<div class="tabcontent" id="home">
+  <div class="thrid">
+</div>
+<div class="tabcontent" id="cart">
+  <div class="thrid">
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg">
+    <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg">
+   <img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg">
+</div>
+
 
 <!-- Footer 
 <footer class="container padding-64 light-grey center opacity xlarge" style="margin-top:128px"> 
@@ -176,6 +188,14 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+function addTotal(evt,button){
+  var total, addtotal;
+  total = button + total;
+  addtotal += total
+  document.writeln(addtotal);
+
+}
+
 
 function myFunction() {
     var x = document.getElementById("myGrid");
@@ -196,6 +216,7 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 </body>
 </html>
