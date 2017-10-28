@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- Testing front end. Goal is to implement CSS transitions that display text and an "add to cart" button -->
+<html>
+<title>TEST</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/styles.css">
+<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/webApp/style1.css">
+<head>
+  <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+</head>
+<style>
+
+img {
+  float:left;
+  max-width:188px;
+  max-height:131px;
+  padding:2.5% 2.5% 2.5% 2.5%;
+  z-index:-1;
+  margin-top: 20%;
+}
+
+
+</style>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Apps')">Apps</button>
+  <button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
+  <button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
+  <button class="tablinks" onclick="openTab(event, 'cart')">Drinks</button>
+</div>
+<div class="bottom_tab">
+  <button class="fa fa-home" onclick="openTab(event, 'home')"></button>
+  <button class="fa fa-filter" onclick="openTab(event, 'filter')"></button>
+  <button class="tablinks" onclick="openTab(event, 'cart')">$0.00</button>
+  <button class="fa fa-opencart" onclick="openTab(event, 'cart')"></button>
+</div>
+
+<div class="tabcontent" id="Apps">
+  <section class="one-fourth" id="css">
+    <td><img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg"></td>
+    <p>Hyper text markup Language</p>
+  </section>
+  <section class="one-fourth" id="css">
+    <td><img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg"></td>
+    <h3>CSS</h3>
+  </section>
+  <section class="one-fourth" id="seo">
+    <td><img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg"></td>
+    <h3>SEO</h3>
+  </section>
+  <section class="one-fourth" id="social">
+    <td><img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg"></td>
+    <h3>SOCIAL</h3>
+  </section>
+  <section class="one-fourth" id="social">
+    <td><img src="/Users/Zach/Desktop/Samples/webApp/images/sushi.jpg"></td>
+
+  </section>
+<div class="thrid">
+  <img src="" style="width:50%">
+  <img src="" style="width:50%">
+</div>
+</div>
+
+<div class="tabcontent" id="Desserts">
+  
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/cookiecheesecake.jpeg">
+      <div class="name1">hello </div>
+      <div class="price">3.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button1"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/buttbars.jpeg">
+      <div class="name2">hello1</div>
+      <div class="price1">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button2"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/nutellatart.jpeg">
+      <div class="name3">hello2</div>
+      <div class="price2">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button3"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/oreocake.jpeg" id="img1">
+      <div class="name4">hello3</div>
+      <div class="price3">2.50</div>
+      <button class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button4" onClick="event, addTotal" value = 2.50 ><i class="fa fa-plus"></i></button>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/roastedpear.jpeg">
+      <div class="name5">hello4</div>
+      <div class="price4">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button5"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/saltedtart.jpeg">
+      <div class="name6">hello6</div>
+      <div class="price5">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button6"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/smores.jpeg">
+      <div class="name7">hello7</div>
+      <div class="price6">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button7"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/strawcake.jpeg">
+      <div class="name8">hello8</div>
+      <div class="price7">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button8"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/streutal.jpeg">
+      <div class="name9">hello9</div>
+      <div class="price8">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button9"><i class="fa fa-plus"></i></a>
+      <img src="/Users/Zach/Desktop/Samples/webApp/Desserts/tiramisu.jpeg">
+      <div class="name10">hello10</div>
+      <div class="price9">2.50</div>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button10"><i class="fa fa-plus"></i></a>
+      <a class="w3-button w3-round w3-tiny w3-grey w3-card-4" id ="button11"><i class="fa fa-plus"></i></a>
+
+
+</div>
+<div class="tabcontent" id="filter">
+  <div class="thrid">
+    <p>This is the filter page</p>
+</div>
+</div>
+<div class="tabcontent" id="home">
+  <div class="thrid">
+    <p>This is the landing page</p>
+</div>
+
+
+
+<!-- Footer 
+<footer class="container padding-64 light-grey center opacity xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official hover-opacity"></i>
+  <i class="fa fa-instagram hover-opacity"></i>
+  <i class="fa fa-snapchat hover-opacity"></i>
+  <i class="fa fa-pinterest-p hover-opacity"></i>
+  <i class="fa fa-twitter hover-opacity"></i>
+  <i class="fa fa-linkedin hover-opacity"></i>
+  <p class="medium"><a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-text-green"></a></p>
+</footer> -->
+ 
+<script>
+// Toggle grid padding
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+function addTotal(evt,button){
+  var total, addtotal;
+  total = button + total;
+  addtotal += total
+  document.writeln(addtotal);
+
+}
+
+
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "row") {
+        x.className = "row-padding";
+    } else { 
+        x.className = x.className.replace("row-padding", "row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+</body>
+</html>

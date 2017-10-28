@@ -187,10 +187,7 @@ body,h1 {font-family: "Montserrat", sans-serif}
   top:700px;
   right:5%;
 }
-p{
-  text-align: center;
-  padding-top: 100px
-}
+
 body{
   padding-bottom: 225%;
 }
@@ -320,13 +317,30 @@ div.bottom_tab button.active {
     to {opacity: 1;}
 }
 
-@media only screen
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
+@media screen and (min-device-width : 320px) {
+  div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 0 auto;
+
 }
-@media only screen
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+@media screen and (max-width: 768px) {
+  div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 0 auto;
+}
 /* Styles */
 }

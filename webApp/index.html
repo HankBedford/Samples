@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rocket Design - Mobile Web Design Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+	<div class="tab">
+  		<button class="tablinks" onclick="openTab(event, 'Apps')">Apps</button>
+  		<button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
+  		<button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
+  		<button class="tablinks" onclick="openTab(event, 'cart')">Drinks</button>
+  		<button class="tablinks" onclick="openTab(event, 'test')">test</button>
+</div>
+<div class="bottom_tab">
+  		<button class="fa fa-home" onclick="openTab(event, 'home')"></button>
+  		<button class="fa fa-filter" onclick="openTab(event, 'filter')"></button>
+  		<button class="tablinks" onclick="openTab(event, 'cart')">$0.00</button>
+  		<button class="fa fa-opencart" onclick="openTab(event, 'cart')"></button>
+</div>
+
+
+	<section class="one-fourth" id="html">
+		<td><img src="/Users/Zach/Desktop/Samples/webApp/images/Chachu.jpg"></td>
+		<h3>HTML</h3>
+	</section>
+	<section class="one-fourth" id="css">
+		<td><i class="fa fa-css3"></i></td>
+		<h3>CSS</h3>
+	</section>
+	<section class="one-fourth" id="seo">
+		<td><i class="fa fa-search"></i></td>
+		<h3>SEO</h3>
+	</section>
+	<section class="one-fourth" id="social">
+		<td><i class="fa fa-user"></i></td>
+		<h3>SOCIAL</h3>
+	</section>
+<!--End Four Column Section-->
+	<section class="inner-wrapper">
+		<article id="tablet">
+			<img src="/Users/Zach/Downloads/starter_files/img/hand_ipad.png">
+		</article>
+		<aside id="tablet2">
+			<h2>MOBILE.TABLET.DESKTOP.</h2>
+			<p>OKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</aside>
+	</section>
+	<section class="inner-wrapper-2">
+		<article id="mobile">
+			<h2>ACROSS EACH DEVICE</h2>
+			<p>OKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</article>
+		<aside>
+			<img src="/Users/Zach/Downloads/starter_files/img/hand_mobile.png">
+		</aside>
+	</section>
+	<section class="inner-wrapper">
+		<article>
+			<img src="/Users/Zach/Downloads/starter_files/img/desktop.png">
+		</article>
+		<aside id="desktop">
+			<p>OKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</aside>
+	</section>
+<!--End Main Two Column Sections-->
+	<section class="inner-wrapper-3">
+		<section class="one-thrid" id="google">
+			<h3>GOOGLE SEARCH</h3>
+			<p>OKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</section>
+		<section class="one-thrid" id="marketing">
+			<h3>MARKETING</h3>
+			<p>OKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</section>
+		<section class="one-thrid" id="customer">
+			<h3>HAPPY CUSTOMER </h3>
+			<p>FOKAY SO LIKE HERE'S THE THING THIS FILLER GARBAGE ISN'T WORKING RIGHT CAUSE THE FILLER DOESN'T AHVE ANY SPACES? SO MAYBE THE PROGRAM THINKS IT'S ALL ONE WORD AHD THAT'S SO STUPID OH MY GOD</p>
+		</section>
+	</section>
+<!--End Three Column Section-->
+	<section id="smiley">
+		<h2>`,:^ )</h2>
+	</section>
+<!--End Smiley Face-->
+	<footer>
+		<ul class="social">
+			<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="https://www.twitter.com" target="_blank"><i class=" fa fa-twitter"></i></a></li>
+			<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+		</ul>
+	</footer>
+<!--End of Footer Section-->
+	<footer class="second">
+		<p>&copy; RocketDesign</p>
+	</footer>
+<!--End Second Footer-->
+</body>
+<script>
+// Toggle grid padding
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+</html>
