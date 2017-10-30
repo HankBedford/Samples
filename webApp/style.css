@@ -20,8 +20,7 @@ h2 {
 }
 h3 {
 	font-size: 100%;
-	line-height: 155%;
-	padding: 5% 0;
+	line-height: 10%;
 	font-weight: 400;
 	color: #F5F5F5;
 }
@@ -99,6 +98,12 @@ nav ul li a:hover {
 	margin: 0 auto;
 }
 
+.one-fourth-one {
+	width: 25%;
+	float: left;
+	padding-top: 10%;
+	text-align: center;
+}
 .one-fourth {
 	width: 25%;
 	float: left;
@@ -116,11 +121,7 @@ nav ul li a:hover {
 #social {
 	background-color: #A2B2C1;
 }
-.one-fourth i {
-	color: #F0F0F0;
-	font-size: 300%;
-	padding: 5% 2% 4% 0;
-}
+
 .inner-wrapper {
 	float: left;
 	width: 100%;
@@ -221,7 +222,7 @@ div.tab {
     background-attachment: scroll;
     background-position: 0% 0%;
     position: fixed;;
-    width:50%;
+    width:100%;
     z-index: 2;
     margin: 0 auto;
 }
@@ -287,7 +288,10 @@ div.bottom_tab{
 	.one-fourth {
 		float: left;
 		width: 50%;
-		padding-top: 10%;
+	}
+	.one-fourth-one {
+		float: left;
+		width: 50%
 	}
 	.one-fourth i {
 		font-size: 350%;
@@ -305,11 +309,11 @@ div.bottom_tab{
 	.one-thrid {
 		width: 100%;
 	}
+	#button1{
+  top: 50px;
+  left: 38%;
 }
-
-
-
-
+}
 
 
 
