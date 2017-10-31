@@ -86,16 +86,6 @@ div.fa-fahome button{
     transition: 0.3s;
     font-size: 17px;
 }
-div#home button{
-    background-color: inherit;
-    float: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
 div.bottom_tab button {
     background-color: inherit;
     float: center;
