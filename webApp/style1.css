@@ -29,7 +29,8 @@ div.tab {
     background-attachment: scroll;
     background-position: 0% 0%;
     position: fixed;;
-    width:100%;
+    width: 100%;
+    margin: 0 auto;
     z-index: 2;
 }
 div.bottom_tab{
@@ -43,6 +44,7 @@ div.bottom_tab{
     bottom:0px;
     width:100%;
     z-index: 2;
+    margin: 0 auto;
 
 }
 
@@ -68,8 +70,9 @@ div.bottom_tab{
 /* Style the buttons inside the tab */
 div.tab button {
     background-color: inherit;
-    float: center;
-    border: none;
+    float: left;
+    border: 20px;
+    border-color: black;
     outline: none;
     cursor: pointer;
     padding: 10px 12px 10px;
@@ -133,22 +136,15 @@ div.bottom_tab button.active {
 }
 
 @media screen and (min-device-width : 320px) {
-  div.tab button {
-    background-color: inherit;
-    float: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 12px 10px;
-    transition: 0.3s;
-    font-size: 17px;
-    margin: 0 auto;
 
 }
 @media screen and (max-width: 768px) {
+
   div.tab button {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
     background-color: inherit;
-    float: center;
+    float: left;
     border: none;
     outline: none;
     cursor: pointer;
@@ -156,6 +152,9 @@ div.bottom_tab button.active {
     transition: 0.3s;
     font-size: 17px;
     margin: 0 auto;
+    width: auto;
+    text-align: center;
+    display: block;
 }
 /* Styles */
 }
