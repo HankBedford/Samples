@@ -34,6 +34,11 @@ def restaurant_one():
 
     return render_template('restaurant_one.html')
 
+@app.route('/menu')
+
+def menu():
+
+    return render_template('menu.html')
 
 
 if __name__ =='__main__':
