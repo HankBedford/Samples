@@ -8,14 +8,7 @@ body{
 }
 
 img {margin-bottom: -7px;}
-/**Transitions while div column instead of individual div elements. Needs fix  
-div{
-  transition: width 2s, height 2s;
-}
-div:hover{
-  width: 100%;
-  height: 100%;
-}**/
+
 .row-padding img {margin-bottom: 12px}
 body{
 background-color:lightgrey;}
@@ -47,25 +40,6 @@ div.bottom_tab{
     margin: 0 auto;
 
 }
-
-/*.footer{
-    height:24px; // Replace with the height your footer should be
-    width: 100%; // Don't change
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
-    left: 0pt;
-}
-.footer_contents {
-
-    height:24px; // Replace with the height your footer should be
-    width: 1000px; // Visible width of footer
-    margin:auto;
-
-}*/
 
 /* Style the buttons inside the tab */
 div.tab button {
@@ -135,26 +109,291 @@ div.bottom_tab button.active {
     to {opacity: 1;}
 }
 
-@media screen and (min-device-width : 320px) {
-
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
 }
+body {
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegreya', Sans-Serif;
+	margin: 0;
+}
+h2 {
+	font-size: 150%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+h3 {
+	font-size: 100%;
+	line-height: 10%;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+p {
+	font-family: 'Alegreya', Sans-Serif;
+	color: #F5F5F5;
+	font-size: 80%;
+	line-height: 100%;
+	text-align: justify;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+header {
+	background-color: #6691AB;
+	width: 100%;
+	height: 86px;
+}
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo {
+	margin:20px;
+	float: left;
+	width:200px;
+	height: 60px;
+	background: url(/Users/Zach/Downloads/starter_files/img/RD.png) no-repeat center;
+}
+/*--- Start Navigation Style --*/
+nav {
+	float: right;
+	padding: 25px 20px 0 0;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(/Users/Zach/Downloads/starter_files/img/nav.png) center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style-type: none;
+}
+nav ul li {
+	font-family: 'Alegreya Sans', Sans-Serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin: 0 auto;
+}
+nav ul li a {
+	color: #F5F5F5;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #C3D7DF;
+}
+.current {
+	color: #C3D73F;
+}
+/*---End of Navigation Style--*/
+.banner {
+	width: 100%;
+	background-color: #6991AC;
+}
+.banner-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.one-fourth-one {
+	width: 25%;
+	float: left;
+	padding-top: 10%;
+	text-align: center;
+}
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#html {
+	background-color: #F1AA90;
+}
+#css {
+	background-color: #BEB9AD;
+}
+#seo {
+	background-color: #AADCD2;
+}
+#social {
+	background-color: #A2B2C1;
+}
+
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+#tablet {
+	background-color: #C3D7DF;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+#tablet2 {
+	background-color: #A2B2C1;
+}
+#mobile {
+	background-color: #BEB9AD;
+}
+#desktop {
+	background-color: #F1AA90;
+}
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #AADCDF;
+}
+.one-thrid {
+	width: 33.3333333333%;
+	float: left;
+	text-align: center;
+}
+#google {
+	background-color: #A2B1C1;
+}
+#marketing {
+	background-color: #BEB9AD;
+}
+#customer {
+	background-color: #AADCD2;
+}
+#smiley {
+	background-color: #AADCD2;
+	padding: 0 0 1%;
+	clear: both;
+}
+/*---Start footer--*/
+
+footer {
+	background-color: #6991AC;
+	width: 100%;
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+.social li {
+	display: inline;;
+}
+.social i {
+	font-size: 460%;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #C3D7DF;
+}
+.social i:hover {
+	color: #F5F5F5;
+}
+footer.second {
+	border-top: 1px solid #AADCD2;
+	background-color: #554B59;
+	max-height: 50px;
+	text-align: center;
+	margin: 0;
+}
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+}
+/*---Media Query Starting--*/
+
 @media screen and (max-width: 768px) {
+	h2 {
+		font-size: 150%;
 
-  div.tab button {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px 12px 10px;
-    transition: 0.3s;
-    font-size: 17px;
-    margin: 0 auto;
-    width: auto;
-    text-align: center;
-    display: block;
+	}
+	h3 {
+		font-size: 120%;
+	}
+	p {
+		font-size: 100%;
+		padding-bottom: 3%:
+	}
+	header {
+		position: absolute;;
+	}
+	#logo {
+		margin: 15px 0 20px -25px;
+		background: url(/Users/Zach/Downloads/starter_files/img/RD_mobile.png) no-repeat center;
+	}
+	#menu-logo {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC;
+		right: 20px;
+		top: 60px;
+		bottom: 1px solid #FFF;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 50%;
+	}
+	.one-fourth-one {
+		float: left;
+		width: 50%
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding:  4% 0 1% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.hand-mobile {
+		display: none;
+	}
+	.one-thrid {
+		width: 100%;
+	}
+	#button1{
+  top: 50px;
+  left: 38%;
 }
-/* Styles */
 }

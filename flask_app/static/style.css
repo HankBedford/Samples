@@ -102,7 +102,7 @@ nav ul li a:hover {
 	width: 25%;
 	float: left;
 	padding-top: 10%;
-	text-align: center;
+	text-align: left;
 }
 .one-fourth {
 	width: 25%;
@@ -266,6 +266,10 @@ footer.second p {
 	.one-fourth-one {
 		float: left;
 		width: 50%
+	}
+	img {
+	    float: left;
+	    width: 50%;
 	}
 	.one-fourth i {
 		font-size: 350%;
