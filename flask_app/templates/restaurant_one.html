@@ -1,7 +1,28 @@
 {% extends 'menu.html' %}
 
 {% block body %}
-
-
-
+<body>
+<div class="tabcontent" id="Apps">
+  <section class="one-fourth-one" id="css">
+    <td><img src="{{ url_for ('images', filename='sushi.jpg')}}"></td>
+    <h3>example</h3>
+    <p>All the pictures have to be the same size :c</p>
+  </section>
+	<section class="one-fourth-one" id="css">
+    <td><img src="{{ url_for ('images', filename='sushi.jpg')}}"></td>
+    <h3>example</h3>
+    <p>All the pictures have to be the same size :c</p>
+  </section>
+	<section class="one-fourth" id="seo">
+    <td><img src="{{ url_for ('images', filename='sushi.jpg')}}"></td>
+    <h3>example</h3>
+    <p>All the pictures have to be the same size :c</p>
+  </section>
+	<section class="one-fourth" id="seo">
+    <td><img src="{{ url_for ('images', filename='sushi.jpg')}}"></td>
+    <h3>example</h3>
+    <p>All the pictures have to be the same size :c</p>
+  </section>
+</div>
+</body>
 {% endblock %}
