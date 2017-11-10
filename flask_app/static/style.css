@@ -23,6 +23,7 @@ h3 {
 	line-height: 10%;
 	font-weight: 400;
 	color: #F5F5F5;
+	padding: 2%
 }
 p {
 	font-family: 'Alegreya', Sans-Serif;
@@ -223,9 +224,12 @@ footer.second p {
 	}
 	h3 {
 		font-size: 120%;
+		padding-top: 10%;
+		padding-bottom: 3%;
 	}
 	p {
 		font-size: 100%;
+		padding-top: 10%;
 		padding-bottom: 3%: 
 	}
 	header {

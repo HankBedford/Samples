@@ -332,9 +332,12 @@ footer.second p {
 	}
 	h3 {
 		font-size: 120%;
+	    padding-top: 3%;
+		padding-bottom: 3%:
 	}
 	p {
 		font-size: 100%;
+		padding-top: 3%;
 		padding-bottom: 3%:
 	}
 	header {
