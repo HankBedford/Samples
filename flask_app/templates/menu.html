@@ -3,7 +3,6 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TEST</title>
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css')}}">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -12,25 +11,6 @@
 <body>
 {% include 'includes/_navbar.html' %}
 {% block body %}
-<div class="tabcontent" id="Apps">
-    <section class="one-fourth-one" id="css">
-        <tb><img src="{{ url_for('static', filename='sushi.jpg')}}"></tb>
-        <p>I think all images needs to be the same size</p>
-    </section>
-    <section class="one-fourth-one" id="seo">
-        <tb><img src="{{ url_for('static', filename='sushi.jpg')}}"></tb>
-        <p>I think all images needs to be the same size</p>
-    </section>
-    <section class="one-fourth" id="social">
-        <tb><img src="{{ url_for('static', filename='sushi.jpg')}}"></tb>
-        <p>I think all images needs to be the same size</p>
-    </section>
-    <section class="one-fourth" id="html">
-        <tb><img src="{{ url_for('static', filename='sushi.jpg')}}"></tb>
-        <p>I think all images needs to be the same size</p>
-    </section>
-
-</div>
 
 {% endblock %}
 </body>
