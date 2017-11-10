@@ -3,12 +3,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TEST</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/flask_app/styles.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="shortcut icon" type="image/png" href="/Users/Zach/Desktop/Samples/dataVisualization/node_modules/d3-geo/img/albersUsa.png"/>
-	<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/flask_app/static/styles.css">
-	<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/flask_app/static/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style1.css')}}">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/Users/Zach/Desktop/Samples/flask_app/static/style1.css">
