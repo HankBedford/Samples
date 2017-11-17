@@ -5,6 +5,10 @@ body,h1 {font-family: "Montserrat", sans-serif}
 }
 body{
   padding-bottom: 225%;
+  background-color: ;
+  color: #67727A;
+  font-family: 'Alegreya', Sans-Serif;
+  margin: 0;
 }
 
 img {margin-bottom: -7px;}
@@ -115,7 +119,7 @@ div.bottom_tab button.active {
 	border: 0;
 }
 body {
-	background: #F5F5F5;
+	background: gray;
 	color: #67727A;
 	font-family: 'Alegreya', Sans-Serif;
 	margin: 0;
@@ -147,17 +151,20 @@ img{
 	margin-bottom: -4px;
 }
 header {
-	background-color: #6691AB;
+	background-color: black;
 	width: 100%;
 	height: 86px;
+	text-align: center;
 }
 #header-inner{
 	max-width: 1200px;
 	margin: 0 auto;
-}
+	float: right;
+	font-size: 1000000px;
+	}
 #logo {
 	margin:20px;
-	float: left;
+	float: right;
 	width:200px;
 	height: 60px;
 	background: url(/Users/Zach/Downloads/starter_files/img/RD.png) no-repeat center;

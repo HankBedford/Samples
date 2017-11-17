@@ -71,8 +71,7 @@ div.bottom_tab{
 div.tab button {
     background-color: inherit;
     float: left;
-    border: 20px;
-    border-color: black;
+    border: none;
     outline: none;
     cursor: pointer;
     padding: 10px 12px 10px;
