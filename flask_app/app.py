@@ -17,6 +17,13 @@ class RegisterForm(Form):
     username = StringField('Username', [validators.Length(min=4, max=25)])
     password = PasswordField('Password', [validators.DataRequired(), validators.EqualTo('confirm', message='Passwords do match')])
 
+class Menu_Contents:
+    def __init__(self, name, description, price, img):
+        self.name = name
+        self.description = description
+        self.price = price
+        self.img = img
+
 
 @app.route('/')
 
